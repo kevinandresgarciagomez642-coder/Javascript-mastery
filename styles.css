@@ -1,0 +1,56 @@
+body {
+  background: linear-gradient(120deg, #f9fafb 70%, #e0e7ff 100%);
+}
+
+h2, h3 {
+  color: #0a6cff;
+  letter-spacing: 0.03em;
+}
+
+nav {
+  margin-bottom: 2rem;
+}
+
+nav a.active {
+  background: #0a6cff;
+  color: #fff !important;
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+
+nav a[role="button"] {
+  font-weight: bold;
+  box-shadow: 0 2px 8px rgba(10,108,255,0.08);
+  transition: transform 0.2s;
+}
+
+nav a[role="button"]:hover {
+  transform: scale(1.08);
+  background: #2563eb;
+}
+
+figure img {
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.12);
+  transition: transform 0.3s;
+}
+
+figure img:hover {
+  transform: scale(1.04) rotate(-1deg);
+}
+
+footer {
+  margin-top: 3rem;
+  text-align: center;
+  opacity: 0.85;
+  font-size: 0.9em;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #e0e7ff;
+}
+::-webkit-scrollbar-thumb {
+  background: #0a6cff;
+  border-radius: 4px;
+}
