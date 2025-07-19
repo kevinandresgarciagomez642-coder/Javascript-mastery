@@ -3,7 +3,7 @@ body {
 }
 
 h2, h3 {
-  color: #0a6cff;
+  color: #red;
   letter-spacing: 0.03em;
 }
 
@@ -13,7 +13,7 @@ nav {
 
 nav a.active {
   background: #0a6cff;
-  color: #fff !important;
+  color: #blue !important;
   border-radius: 6px;
   transition: background 0.2s;
 }
